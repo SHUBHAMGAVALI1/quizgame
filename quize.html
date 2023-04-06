@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="quize.css">
+    <title>QuizeGame</title>
+</head>
+<body>
+
+    <section id="section">
+        <div id="firstbox">
+            <h1 id="question"> welcome to jumanji!!!!!</h1>
+
+            <ul>
+                <li>
+                    <input type="radio" name="list" id="a" class="list">
+                    <label for="a" id="option1"></label>
+                </li>
+
+                <li>
+                    <input type="radio" name="list" id="b" class="list">
+                    <label for="a" id="option2"></label>
+                </li>
+
+                <li>
+                    <input type="radio" name="list" id="c" class="list">
+                    <label for="c" id="option3"></label>
+
+                </li>
+                <li>
+                    <input type="radio" name="list" id="d" class="list">
+                    <label for="d" id="option4"></label>
+
+                 </li>
+            </ul>
+
+            <button id="submit">submit</button>
+
+        </div>
+
+        <div id="secondbox">
+            <h1 id="scoremsg"> </h1>
+            <button id="playagain"  onclick="location.reload()">Play Again</button>
+        </div>
+
+    </section>
+    
+    <script src="quize.js"></script>
+</body>
+</html>
